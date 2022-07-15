@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Cabs Data Analysis</title>
+    <link rel = "icon" href = "logo.png" 
+        type = "image/x-icon">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row projectHeading">
+        <h2>Cabs Data Analysis</h2>
+        <div class="line"></div>
+        <p><i>A intensive analysis and research on cab fare and tips data from all across the globe with a special focus on New York City Yellow Cabs</i></p>
+      </div>
+      <div class="row">
+        <div class="col-md-9 leftBox">
+          <div class="row">
+            <h4>Introduction</h4>
+          </div>
+          <div class="row">
+            <p>Through our project we have tried to analyze data of New York City Yellow Cabs from Year 2015 and 2020 on the bases of trip distance, payment types, tip amount etc. along with data from different countries based on their motor vehicle densities, average price per mile etc. We have gathered some really interesting insights and observed unexpected patterns through this project. </p>
+          </div>
+          <div class="row numbers">
+            <div class="col-md-4 boxContainer">
+              <div class="box">11.1%
+                <p class="smallText">Decrease in Fares in 5 Year</p>
+              </div>
+            </div>
+             <div class="col-md-4 boxContainer">
+             <div class="box">18.6%
+                <p class="smallText">Increase in Tips in 5 Years</p>
+              </div>
+            </div>
+            <div class="col-md-4 boxContainer">
+              <div class="box">100%
+                <p class="smallText">Cash Payers gave about $0 in tip</p>
+              </div>
+            </div>
+          </div>
+          <div class="row dataHeading">
+            <h4>Visualisation 1</h4>
+          </div>
+          <div class="row imgContainer">
+             <img class="graphs" src="graph1.png">
+          </div>
+          <div class="row dataHeading">
+            <h4>Visualisation 2</h4>
+          </div>
+          <div class="row imgContainer">
+             <img class="graphs" src="graph2a.png">
+              <img class="graphs" src="graph2b.png">
+          </div>
+          <div class="row dataHeading">
+            <h4>Visualisation 3</h4>
+          </div>
+          <div class="row imgContainer">
+             <img class="graphs" src="graph3.png">
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-md-3 rightCol">
+          <div class="row">
+            <h4>Insights</h4>
+          </div>
+          <div class="row insightBox">
+            Visualization 1<br>
+The first graph shows us the dependence of price per mile for a cab in different countries based on the density of vehicles per thousand people in their country. We saw a general trend that as the density of vehicles increased, so did the price. The reason for this could probably be that as more people bought private vehicles, the need to use the cab decreased, and using cabs became a luxury, therefore increasing the price. Further, there is a peak when the number of motor vehicles is little over half the number of people. This could probably be because that creates a perfect sweet spot for countries with people rich enough to afford cars but also, the number of cars is less enough to increase demand. So this leads to an increase in demand for a high-paying market increasing the price.
+          </div>
+          <div class="row insightBox">
+            Visualization 2<br>
+The second visualization shows the dependence of tips based on the method of payment and distance for the trip for yellow cabs. This was very interesting to note that people who paid with cash did not tip at all. This was an unexpected observation that was revealed by the data. We feel that this could be because mostly the people who pay with cash are tourists and it is not a tradition to tip the cab drivers as much as it is in the US. Furthermore, only a small fraction of the people used cash and we don’t think that the data is enough to make general conclusions. Secondly, when we observed the tips paid using a card, we observed an almost linear relationship between the amount of tip and the distance. This was something we expected as people tend to pay more to drivers for longer trips to value their time.
+          </div>
+          <div class="row insightBox">
+           Visualization 3<br>
+The third visualization compares the trends of average fare and average tip in New York City Yellow Cabs for the same month in 2015 and 2020. So based on our observations from 2015 to 2020, the fares decreased but tips increased. This is actually a positive observation for cab drivers and for the consumers. This benefitted the consumers by decreasing the cab prices and benefitted the drivers as although the fares decreased, their tips increased. However, we feel that overall consumers ended up spending the same amount, but the only difference was now they had a choice. This could be due to multiple reasons. The entry of private cab companies like Uber could have forced yellow cabs to decrease their fare prices. The presence of a pandemic could also have reduced the time people spent commuting decreasing the total fare. All this decreased the fares and increased the tips
+          </div>
+          <div class="row insightBox">
+            Additional 1<br>
+            From this data, it can be seen that from 2015 to 2020, the ratio of passengers that used cards increased. This could be since technological advancements have made it more necessary to carry around a card than cash. Also, as 2020 was during the pandemic, to have less contact with others, people might have opted to use a card instead. Along with the insight that people who pay with card tip more than those that pay with cash, this might suggest that taxi drivers received more tips in 2020.
+          </div>
+          <div class="row insightBox">
+            Additional 2<br>
+            Contrary to intuition, the passenger count doesn't seem to affect the average amount of tips paid within the group. In 2020, the changes between average tips among the different passenger count groups is extremely consistent. There was more variation in 2015, but still is around the same number: between 1.47 and 1.91. Usually in service industries, more people means higher tips due to inconveniences, however, it does not seem that people tip more in larger groups when riding taxis.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

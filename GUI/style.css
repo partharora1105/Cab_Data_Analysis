@@ -1,0 +1,68 @@
+body{
+	text-align: justify;
+	background-color: #2A2F41;
+	color: white;
+}
+
+.projectHeading{
+	text-align: center;
+	padding: 1%;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	margin-bottom: 3%;
+
+}
+.projectHeading p{
+	padding: 0% 20%;
+	margin-top: 1%;
+	/*color: #37B6FC;*/
+}
+.line{
+	background-color: #F243D0;
+	width: 10%;
+	height: 3px;
+	margin: auto;
+}
+.leftBox{
+	padding: 0 6%;
+}
+.numbers{
+	margin-top: 3%;
+}
+.box{
+	background-color: #363B50;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 10% 15%;
+	border-radius: 20px;
+	font-size: 30px;
+}
+.boxContainer{
+	margin-bottom: 1%;
+}
+.smallText{
+	font-size: 12px!important;
+	color: #37B6FC
+}
+.graphs{
+	width: 90%;
+	margin: 3% 5%;
+	border-radius: 30px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.dataHeading{
+	margin-top: 8%;
+}
+.insightBox{
+	background-color: #363B50;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 90%;
+	margin-top: 10%;
+	padding: 6%;
+	border-radius: 20px;
+	margin-left: 0;
+	font-size: 14px;
+}
