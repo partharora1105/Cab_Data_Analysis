@@ -14,3 +14,7 @@ An intensive analysis and research on cab fare and tips data from all across the
 	<li>Open the file DataAnalysis.ipynb</li>
 </ul>
 <h2>Media</h2>
+<p align="center">
+  <img src="www.projects.bet/Media/github/Cab/img1.png">
+  <br>Visualization
+</p>
