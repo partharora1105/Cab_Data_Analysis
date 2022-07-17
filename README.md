@@ -15,6 +15,6 @@ An intensive analysis and research on cab fare and tips data from all across the
 </ul>
 <h2>Media</h2>
 <p align="center">
-  <img src="www.projects.bet/Media/github/Cab/img1.png">
+  <img src="/github/img1.png">
   <br>Visualization
 </p>
